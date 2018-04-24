@@ -1,0 +1,13 @@
+ double imc = peso / Math.pow(altura,2)
+if (imc <20 ){
+Intent tela1 = new Intent(getApplicationContext(), tela1.class);
+            startActivity(tela1);
+}else if(imc > 30 ){
+Intent tela2 = new Intent(getApplicationContext(), tela2.class);
+            startActivity(tela2);
+}else if(imc>=20 && imc <=30){
+Intent tela3 = new Intent(getApplicationContext(), tela3.class);
+            startActivity(tela3);
+}
+
+//Isso dentro do click do botao calcular. A lógica é essa, espero ter ajudado
